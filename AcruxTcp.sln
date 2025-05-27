@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcruxTcp", "AcruxTcp\AcruxTcp.csproj", "{CD1BF8E3-A504-45C7-8250-C0EEDC42969C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLI", "CLI\CLI.csproj", "{6A114DD8-D4F8-42C2-97E7-AC7E09BC4BC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD1BF8E3-A504-45C7-8250-C0EEDC42969C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD1BF8E3-A504-45C7-8250-C0EEDC42969C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD1BF8E3-A504-45C7-8250-C0EEDC42969C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD1BF8E3-A504-45C7-8250-C0EEDC42969C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A114DD8-D4F8-42C2-97E7-AC7E09BC4BC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A114DD8-D4F8-42C2-97E7-AC7E09BC4BC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A114DD8-D4F8-42C2-97E7-AC7E09BC4BC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A114DD8-D4F8-42C2-97E7-AC7E09BC4BC4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
