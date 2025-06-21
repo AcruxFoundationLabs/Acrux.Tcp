@@ -14,7 +14,7 @@ public static class InteractiveShell
         {
             StartInfo = new ProcessStartInfo
             {
-                FileName = "/bin/bash",
+                FileName = OperatingSystem.IsLinux() ? "/bin/bash" : "cmd.exe",
                 RedirectStandardInput = true,
                 RedirectStandardOutput = true,
                 RedirectStandardError = true,
